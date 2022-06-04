@@ -1,4 +1,4 @@
-var ws_uri = "ws://musical-malabi-80dba2.netlify.app:9600";
+var ws_uri = "ws://musical-malabi-80dba2.netlify.app:5500";
 var websocket = new WebSocket(ws_uri);
 
 websocket.onopen = function(event) {
